@@ -53,7 +53,7 @@ struct ContentView: View {
                             welcome = "str_welcome".localized()
                         },label:{
                             Text("Franch").foregroundColor(Color.white)
-                                .frame(maxWidth:.infinity, maxHeight: .infinity).background(Color.purple)
+                                .frame(maxWidth:.infinity, maxHeight: .infinity).background(Color.orange)
                         })
                     }.frame(maxWidth: .infinity, maxHeight: .infinity)
                 }.frame(maxWidth: .infinity, maxHeight: 70)
